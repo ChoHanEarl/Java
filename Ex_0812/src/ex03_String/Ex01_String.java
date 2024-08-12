@@ -31,6 +31,10 @@ public class Ex01_String {
 		//문자열을 특정 기준으로 잘라서 배열로 저장하기
 		//split()
 		System.out.println(Arrays.toString(str.split(" "))); //띄어쓰기를 기준으로 잘라서 배열을 저장(Kim이 0번인덱스, Mal 1번, ddong 2번)
+
+		//특정문자열을 치환해주는 메서드
+		//replace(기존문자열, 바꿀문자열)
+		System.out.println(str.replace("Mal", "Gae"));
 		
 	}
 }
