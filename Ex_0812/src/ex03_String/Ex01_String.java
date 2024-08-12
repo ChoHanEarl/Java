@@ -35,6 +35,14 @@ public class Ex01_String {
 		//특정문자열을 치환해주는 메서드
 		//replace(기존문자열, 바꿀문자열)
 		System.out.println(str.replace("Mal", "Gae"));
+
+		//특정 문자를 포함하고 있는지 판별
+		//contains()
+		System.out.println(str.contains("n"));
+		
+		//문자열의 길이가 0인 경우 true를 반환
+		//isEmpty()
+		System.out.println(str.isEmpty());
 		
 	}
 }
