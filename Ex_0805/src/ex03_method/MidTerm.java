@@ -10,7 +10,7 @@ public class MidTerm {
 	int score(int[] scores) {
 		int total = 0;
 		for (int i : scores) {
-			total += i;
+			total += scores[i];
 		}
 		return total;
 	}
